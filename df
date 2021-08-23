@@ -1,0 +1,10 @@
+x,y=map(int,input().split())
+
+def fn(x,y):
+    item = 0
+    sum = 0
+    for i in range(y):
+        item = item*10+x
+        sum += item
+    return sum
+print(fn(x,y))
